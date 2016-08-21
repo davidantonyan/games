@@ -1,0 +1,47 @@
+#game{
+	position: relative;
+	width: 400px;
+	height: 200px;
+}
+
+#playground{
+	background: url('../img/playground.png');
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#ball{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fbb;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -10px;
+    left: 50%;
+    margin-left: -16px;
+}
+
+.paddle {
+	background-size: contain;
+	top: 50%;
+	position: absolute;
+	width: 30px;
+	height: 70px;
+	margin-top: -35px;
+}
+
+#paddleA {
+	left: 50px;
+	background-image: url(../img/football-player-left.png);
+}
+#paddleB {
+	right: 50px;
+	background-image: url(../img/football-player.png);
+}
